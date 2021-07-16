@@ -1,0 +1,24 @@
+[2021-07-15 10:43:27,284] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: Treino-01.Hello_Python 2021-07-14T20:28:00+00:00 [queued]>
+[2021-07-15 10:43:27,297] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: Treino-01.Hello_Python 2021-07-14T20:28:00+00:00 [queued]>
+[2021-07-15 10:43:27,297] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 10:43:27,298] {taskinstance.py:1088} INFO - Starting attempt 1 of 2
+[2021-07-15 10:43:27,298] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 10:43:27,315] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): Hello_Python> on 2021-07-14T20:28:00+00:00
+[2021-07-15 10:43:27,328] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Treino-01', 'Hello_Python', '2021-07-14T20:28:00+00:00', '--job-id', '608', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/treino01.py', '--cfg-path', '/tmp/tmp2xifbz4x', '--error-file', '/tmp/tmpmama6oyy']
+[2021-07-15 10:43:27,329] {standard_task_runner.py:77} INFO - Job 608: Subtask Hello_Python
+[2021-07-15 10:43:27,324] {standard_task_runner.py:52} INFO - Started process 1557 to run task
+[2021-07-15 10:43:27,374] {logging_mixin.py:104} INFO - Running <TaskInstance: Treino-01.Hello_Python 2021-07-14T20:28:00+00:00 [running]> on host 07e9e45ed309
+[2021-07-15 10:43:27,433] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=brunodba@gmail.com,bruno@highsales.digital
+AIRFLOW_CTX_DAG_OWNER=Bruno - IGTI
+AIRFLOW_CTX_DAG_ID=Treino-01
+AIRFLOW_CTX_TASK_ID=Hello_Python
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T20:28:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-14T20:28:00+00:00
+[2021-07-15 10:43:27,434] {logging_mixin.py:104} INFO - Hello Airflow from Python
+[2021-07-15 10:43:27,434] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-15 10:43:27,447] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=Treino-01, task_id=Hello_Python, execution_date=20210714T202800, start_date=20210715T104327, end_date=20210715T104327
+[2021-07-15 10:43:27,481] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 10:43:27,505] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,28 @@
+[2021-07-15 10:45:03,639] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: Treino-01.Hello_Bash 2021-07-15T08:00:00+00:00 [queued]>
+[2021-07-15 10:45:03,652] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: Treino-01.Hello_Bash 2021-07-15T08:00:00+00:00 [queued]>
+[2021-07-15 10:45:03,652] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 10:45:03,652] {taskinstance.py:1088} INFO - Starting attempt 1 of 2
+[2021-07-15 10:45:03,652] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 10:45:03,669] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): Hello_Bash> on 2021-07-15T08:00:00+00:00
+[2021-07-15 10:45:03,672] {standard_task_runner.py:52} INFO - Started process 3399 to run task
+[2021-07-15 10:45:03,676] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Treino-01', 'Hello_Bash', '2021-07-15T08:00:00+00:00', '--job-id', '1293', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/treino01.py', '--cfg-path', '/tmp/tmpr1l3rxui', '--error-file', '/tmp/tmpgjxnzi3i']
+[2021-07-15 10:45:03,677] {standard_task_runner.py:77} INFO - Job 1293: Subtask Hello_Bash
+[2021-07-15 10:45:03,718] {logging_mixin.py:104} INFO - Running <TaskInstance: Treino-01.Hello_Bash 2021-07-15T08:00:00+00:00 [running]> on host 07e9e45ed309
+[2021-07-15 10:45:03,816] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=brunodba@gmail.com,bruno@highsales.digital
+AIRFLOW_CTX_DAG_OWNER=Bruno - IGTI
+AIRFLOW_CTX_DAG_ID=Treino-01
+AIRFLOW_CTX_TASK_ID=Hello_Bash
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T08:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-15T08:00:00+00:00
+[2021-07-15 10:45:03,817] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-07-15 10:45:03,818] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'echo "Hello Airflow from Bash"']
+[2021-07-15 10:45:03,827] {subprocess.py:75} INFO - Output:
+[2021-07-15 10:45:03,829] {subprocess.py:79} INFO - Hello Airflow from Bash
+[2021-07-15 10:45:03,830] {subprocess.py:83} INFO - Command exited with return code 0
+[2021-07-15 10:45:03,901] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=Treino-01, task_id=Hello_Bash, execution_date=20210715T080000, start_date=20210715T104503, end_date=20210715T104503
+[2021-07-15 10:45:03,945] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 10:45:03,976] {local_task_job.py:151} INFO - Task exited with return code 0

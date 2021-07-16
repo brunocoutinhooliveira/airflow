@@ -1,0 +1,806 @@
+[2021-07-14 10:47:24,598] {scheduler_job.py:182} INFO - Started process (PID=7673) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:47:24,600] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:47:24,600] {logging_mixin.py:104} INFO - [2021-07-14 10:47:24,600] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:47:24,602] {logging_mixin.py:104} INFO - [2021-07-14 10:47:24,601] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:47:24,602] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:47:24,615] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.019 seconds
+[2021-07-14 10:47:55,278] {scheduler_job.py:182} INFO - Started process (PID=7735) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:47:55,279] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:47:55,279] {logging_mixin.py:104} INFO - [2021-07-14 10:47:55,279] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:47:55,281] {logging_mixin.py:104} INFO - [2021-07-14 10:47:55,280] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:47:55,281] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:47:55,295] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.020 seconds
+[2021-07-14 10:48:26,027] {scheduler_job.py:182} INFO - Started process (PID=7787) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:48:26,029] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:48:26,031] {logging_mixin.py:104} INFO - [2021-07-14 10:48:26,030] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:48:26,034] {logging_mixin.py:104} INFO - [2021-07-14 10:48:26,033] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:48:26,035] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:48:26,059] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.039 seconds
+[2021-07-14 10:49:37,988] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:49:37,990] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:49:37,990] {logging_mixin.py:104} INFO - [2021-07-14 10:49:37,990] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:49:37,993] {logging_mixin.py:104} INFO - [2021-07-14 10:49:37,992] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:49:37,993] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:49:38,015] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.030 seconds
+[2021-07-14 10:50:08,724] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:50:08,725] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:50:08,726] {logging_mixin.py:104} INFO - [2021-07-14 10:50:08,726] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:50:08,728] {logging_mixin.py:104} INFO - [2021-07-14 10:50:08,727] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:50:08,729] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:50:08,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.028 seconds
+[2021-07-14 10:50:39,358] {scheduler_job.py:182} INFO - Started process (PID=140) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:50:39,360] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:50:39,361] {logging_mixin.py:104} INFO - [2021-07-14 10:50:39,360] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:50:39,364] {logging_mixin.py:104} INFO - [2021-07-14 10:50:39,363] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:50:39,365] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:50:39,382] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.032 seconds
+[2021-07-14 10:51:10,001] {scheduler_job.py:182} INFO - Started process (PID=204) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:51:10,002] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:51:10,002] {logging_mixin.py:104} INFO - [2021-07-14 10:51:10,002] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:51:10,004] {logging_mixin.py:104} INFO - [2021-07-14 10:51:10,003] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:51:10,005] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:51:10,019] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.020 seconds
+[2021-07-14 10:51:40,771] {scheduler_job.py:182} INFO - Started process (PID=268) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:51:40,773] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:51:40,774] {logging_mixin.py:104} INFO - [2021-07-14 10:51:40,774] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:51:40,777] {logging_mixin.py:104} INFO - [2021-07-14 10:51:40,776] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:51:40,777] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:51:40,793] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.027 seconds
+[2021-07-14 10:52:11,477] {scheduler_job.py:182} INFO - Started process (PID=320) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:52:11,478] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:52:11,479] {logging_mixin.py:104} INFO - [2021-07-14 10:52:11,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:52:11,481] {logging_mixin.py:104} INFO - [2021-07-14 10:52:11,480] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:52:11,481] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:52:11,497] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.022 seconds
+[2021-07-14 10:52:42,470] {scheduler_job.py:182} INFO - Started process (PID=382) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:52:42,472] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:52:42,473] {logging_mixin.py:104} INFO - [2021-07-14 10:52:42,473] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:52:42,475] {logging_mixin.py:104} INFO - [2021-07-14 10:52:42,474] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:52:42,475] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:52:42,490] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.025 seconds
+[2021-07-14 10:53:12,942] {scheduler_job.py:182} INFO - Started process (PID=446) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:53:12,943] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:53:12,944] {logging_mixin.py:104} INFO - [2021-07-14 10:53:12,943] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:53:12,945] {logging_mixin.py:104} INFO - [2021-07-14 10:53:12,945] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:53:12,946] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:53:12,961] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.022 seconds
+[2021-07-14 10:53:43,750] {scheduler_job.py:182} INFO - Started process (PID=498) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:53:43,752] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:53:43,753] {logging_mixin.py:104} INFO - [2021-07-14 10:53:43,752] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:53:43,756] {logging_mixin.py:104} INFO - [2021-07-14 10:53:43,755] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:53:43,756] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:53:43,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.030 seconds
+[2021-07-14 10:54:14,499] {scheduler_job.py:182} INFO - Started process (PID=562) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:54:14,500] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:54:14,500] {logging_mixin.py:104} INFO - [2021-07-14 10:54:14,500] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:54:14,502] {logging_mixin.py:104} INFO - [2021-07-14 10:54:14,501] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:54:14,503] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:54:14,517] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.021 seconds
+[2021-07-14 10:54:45,066] {scheduler_job.py:182} INFO - Started process (PID=624) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:54:45,066] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:54:45,067] {logging_mixin.py:104} INFO - [2021-07-14 10:54:45,067] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:54:45,068] {logging_mixin.py:104} INFO - [2021-07-14 10:54:45,068] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:54:45,069] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:54:45,083] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.019 seconds
+[2021-07-14 10:55:15,923] {scheduler_job.py:182} INFO - Started process (PID=676) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:55:15,925] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:55:15,926] {logging_mixin.py:104} INFO - [2021-07-14 10:55:15,926] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:55:15,929] {logging_mixin.py:104} INFO - [2021-07-14 10:55:15,928] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:55:15,929] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:55:15,946] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.030 seconds
+[2021-07-14 10:55:46,413] {scheduler_job.py:182} INFO - Started process (PID=738) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:55:46,413] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:55:46,414] {logging_mixin.py:104} INFO - [2021-07-14 10:55:46,414] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:55:46,415] {logging_mixin.py:104} INFO - [2021-07-14 10:55:46,415] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 29
+    hello_bash = BashOperator{
+                             ^
+SyntaxError: invalid syntax
+[2021-07-14 10:55:46,416] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:55:46,428] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.018 seconds
+[2021-07-14 10:56:11,855] {scheduler_job.py:182} INFO - Started process (PID=790) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:11,858] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:56:11,859] {logging_mixin.py:104} INFO - [2021-07-14 10:56:11,859] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:11,865] {logging_mixin.py:104} INFO - [2021-07-14 10:56:11,863] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 41
+    dag-dag
+    ^
+SyntaxError: positional argument follows keyword argument
+[2021-07-14 10:56:11,866] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:11,892] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.045 seconds
+[2021-07-14 10:56:42,551] {scheduler_job.py:182} INFO - Started process (PID=854) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:42,553] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:56:42,554] {logging_mixin.py:104} INFO - [2021-07-14 10:56:42,553] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:42,556] {logging_mixin.py:104} INFO - [2021-07-14 10:56:42,555] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 41
+    dag-dag
+    ^
+SyntaxError: positional argument follows keyword argument
+[2021-07-14 10:56:42,556] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:42,572] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.024 seconds
+[2021-07-14 10:56:50,399] {scheduler_job.py:182} INFO - Started process (PID=886) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:50,401] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:56:50,401] {logging_mixin.py:104} INFO - [2021-07-14 10:56:50,401] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:50,412] {logging_mixin.py:104} INFO - [2021-07-14 10:56:50,411] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 41, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 174, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['python_callable'] is required
+[2021-07-14 10:56:50,413] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:56:50,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.030 seconds
+[2021-07-14 10:57:20,774] {scheduler_job.py:182} INFO - Started process (PID=937) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:57:20,775] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:57:20,775] {logging_mixin.py:104} INFO - [2021-07-14 10:57:20,775] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:57:20,784] {logging_mixin.py:104} INFO - [2021-07-14 10:57:20,783] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 41, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 174, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['python_callable'] is required
+[2021-07-14 10:57:20,784] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:57:20,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.026 seconds
+[2021-07-14 10:57:40,442] {scheduler_job.py:182} INFO - Started process (PID=972) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:57:40,443] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:57:40,443] {logging_mixin.py:104} INFO - [2021-07-14 10:57:40,443] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:57:40,456] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:57:45,216] {logging_mixin.py:104} INFO - [2021-07-14 10:57:45,215] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 10:57:45,225] {logging_mixin.py:104} INFO - [2021-07-14 10:57:45,224] {dag.py:1852} INFO - Creating ORM DAG for Treino-01
+[2021-07-14 10:57:45,229] {logging_mixin.py:104} INFO - [2021-07-14 10:57:45,229] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 10:57:45,237] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 4.798 seconds
+[2021-07-14 10:58:15,989] {scheduler_job.py:182} INFO - Started process (PID=1042) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:58:15,990] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:58:15,991] {logging_mixin.py:104} INFO - [2021-07-14 10:58:15,991] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:58:16,013] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:58:16,033] {logging_mixin.py:104} INFO - [2021-07-14 10:58:16,033] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 10:58:16,046] {logging_mixin.py:104} INFO - [2021-07-14 10:58:16,046] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 10:58:16,053] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.069 seconds
+[2021-07-14 10:58:46,913] {scheduler_job.py:182} INFO - Started process (PID=1096) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:58:46,916] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:58:46,918] {logging_mixin.py:104} INFO - [2021-07-14 10:58:46,918] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:58:46,945] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:58:46,963] {logging_mixin.py:104} INFO - [2021-07-14 10:58:46,963] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 10:58:46,975] {logging_mixin.py:104} INFO - [2021-07-14 10:58:46,975] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 10:58:46,981] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.077 seconds
+[2021-07-14 10:59:17,615] {scheduler_job.py:182} INFO - Started process (PID=1158) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:59:17,617] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:59:17,619] {logging_mixin.py:104} INFO - [2021-07-14 10:59:17,619] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:59:17,642] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:59:17,661] {logging_mixin.py:104} INFO - [2021-07-14 10:59:17,661] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 10:59:17,673] {logging_mixin.py:104} INFO - [2021-07-14 10:59:17,673] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 10:59:17,679] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.073 seconds
+[2021-07-14 10:59:48,404] {scheduler_job.py:182} INFO - Started process (PID=1222) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 10:59:48,404] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 10:59:48,405] {logging_mixin.py:104} INFO - [2021-07-14 10:59:48,405] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 10:59:48,419] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 10:59:48,436] {logging_mixin.py:104} INFO - [2021-07-14 10:59:48,436] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 10:59:48,450] {logging_mixin.py:104} INFO - [2021-07-14 10:59:48,449] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 10:59:48,457] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.055 seconds
+[2021-07-14 11:00:19,307] {scheduler_job.py:182} INFO - Started process (PID=1276) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:00:19,309] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:00:19,311] {logging_mixin.py:104} INFO - [2021-07-14 11:00:19,311] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:00:19,339] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:00:19,356] {logging_mixin.py:104} INFO - [2021-07-14 11:00:19,355] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:00:19,367] {logging_mixin.py:104} INFO - [2021-07-14 11:00:19,367] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:00:19,386] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.088 seconds
+[2021-07-14 11:00:50,120] {scheduler_job.py:182} INFO - Started process (PID=1338) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:00:50,122] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:00:50,123] {logging_mixin.py:104} INFO - [2021-07-14 11:00:50,123] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:00:50,145] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:00:50,163] {logging_mixin.py:104} INFO - [2021-07-14 11:00:50,162] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:00:50,175] {logging_mixin.py:104} INFO - [2021-07-14 11:00:50,175] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:00:50,182] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.066 seconds
+[2021-07-14 11:01:21,062] {scheduler_job.py:182} INFO - Started process (PID=1402) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:01:21,063] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:01:21,063] {logging_mixin.py:104} INFO - [2021-07-14 11:01:21,063] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:01:21,078] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:01:21,096] {logging_mixin.py:104} INFO - [2021-07-14 11:01:21,095] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:01:21,108] {logging_mixin.py:104} INFO - [2021-07-14 11:01:21,108] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:01:21,115] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.055 seconds
+[2021-07-14 11:01:52,018] {scheduler_job.py:182} INFO - Started process (PID=1454) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:01:52,021] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:01:52,022] {logging_mixin.py:104} INFO - [2021-07-14 11:01:52,022] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:01:52,049] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:01:52,094] {logging_mixin.py:104} INFO - [2021-07-14 11:01:52,094] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:01:52,111] {logging_mixin.py:104} INFO - [2021-07-14 11:01:52,110] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:01:52,119] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.109 seconds
+[2021-07-14 11:02:22,920] {scheduler_job.py:182} INFO - Started process (PID=1517) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:02:22,923] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:02:22,925] {logging_mixin.py:104} INFO - [2021-07-14 11:02:22,925] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:02:22,952] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:02:22,968] {logging_mixin.py:104} INFO - [2021-07-14 11:02:22,968] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:02:22,981] {logging_mixin.py:104} INFO - [2021-07-14 11:02:22,981] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:02:22,988] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.078 seconds
+[2021-07-14 11:02:53,848] {scheduler_job.py:182} INFO - Started process (PID=1578) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:02:53,849] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:02:53,850] {logging_mixin.py:104} INFO - [2021-07-14 11:02:53,850] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:02:53,864] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:02:53,880] {logging_mixin.py:104} INFO - [2021-07-14 11:02:53,880] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:02:53,893] {logging_mixin.py:104} INFO - [2021-07-14 11:02:53,893] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:02:53,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.055 seconds
+[2021-07-14 11:03:23,941] {scheduler_job.py:182} INFO - Started process (PID=1633) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:03:23,944] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:03:23,945] {logging_mixin.py:104} INFO - [2021-07-14 11:03:23,945] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:03:23,971] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:03:23,987] {logging_mixin.py:104} INFO - [2021-07-14 11:03:23,987] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:03:23,998] {logging_mixin.py:104} INFO - [2021-07-14 11:03:23,998] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:03:24,005] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.072 seconds
+[2021-07-14 11:03:54,796] {scheduler_job.py:182} INFO - Started process (PID=1696) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:03:54,797] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:03:54,797] {logging_mixin.py:104} INFO - [2021-07-14 11:03:54,797] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:03:54,820] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:03:54,836] {logging_mixin.py:104} INFO - [2021-07-14 11:03:54,836] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:03:54,850] {logging_mixin.py:104} INFO - [2021-07-14 11:03:54,850] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:03:54,857] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.065 seconds
+[2021-07-14 11:04:25,723] {scheduler_job.py:182} INFO - Started process (PID=1748) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:04:25,727] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:04:25,729] {logging_mixin.py:104} INFO - [2021-07-14 11:04:25,729] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:04:25,756] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:04:25,773] {logging_mixin.py:104} INFO - [2021-07-14 11:04:25,773] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:04:25,786] {logging_mixin.py:104} INFO - [2021-07-14 11:04:25,785] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:04:25,792] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.077 seconds
+[2021-07-14 11:04:56,656] {scheduler_job.py:182} INFO - Started process (PID=1812) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:04:56,659] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:04:56,661] {logging_mixin.py:104} INFO - [2021-07-14 11:04:56,660] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:04:56,688] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:04:56,705] {logging_mixin.py:104} INFO - [2021-07-14 11:04:56,705] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:04:56,722] {logging_mixin.py:104} INFO - [2021-07-14 11:04:56,722] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:04:56,731] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.082 seconds
+[2021-07-14 11:05:27,346] {scheduler_job.py:182} INFO - Started process (PID=1874) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:05:27,348] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:05:27,349] {logging_mixin.py:104} INFO - [2021-07-14 11:05:27,349] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:05:27,377] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:05:27,395] {logging_mixin.py:104} INFO - [2021-07-14 11:05:27,395] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:05:27,408] {logging_mixin.py:104} INFO - [2021-07-14 11:05:27,408] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:05:27,420] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.081 seconds
+[2021-07-14 11:05:58,299] {scheduler_job.py:182} INFO - Started process (PID=1927) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:05:58,302] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:05:58,304] {logging_mixin.py:104} INFO - [2021-07-14 11:05:58,304] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:05:58,328] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:05:58,345] {logging_mixin.py:104} INFO - [2021-07-14 11:05:58,345] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:05:58,358] {logging_mixin.py:104} INFO - [2021-07-14 11:05:58,358] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:05:58,364] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.075 seconds
+[2021-07-14 11:06:28,855] {scheduler_job.py:182} INFO - Started process (PID=1989) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:06:28,858] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:06:28,860] {logging_mixin.py:104} INFO - [2021-07-14 11:06:28,860] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:06:28,885] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:06:28,902] {logging_mixin.py:104} INFO - [2021-07-14 11:06:28,902] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:06:28,915] {logging_mixin.py:104} INFO - [2021-07-14 11:06:28,914] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:06:28,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.075 seconds
+[2021-07-14 11:06:59,401] {scheduler_job.py:182} INFO - Started process (PID=2050) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:06:59,402] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:06:59,402] {logging_mixin.py:104} INFO - [2021-07-14 11:06:59,402] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:06:59,414] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:06:59,432] {logging_mixin.py:104} INFO - [2021-07-14 11:06:59,432] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:06:59,446] {logging_mixin.py:104} INFO - [2021-07-14 11:06:59,445] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:06:59,453] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.054 seconds
+[2021-07-14 11:07:30,235] {scheduler_job.py:182} INFO - Started process (PID=2104) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:07:30,237] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:07:30,238] {logging_mixin.py:104} INFO - [2021-07-14 11:07:30,238] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:07:30,257] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:07:30,273] {logging_mixin.py:104} INFO - [2021-07-14 11:07:30,273] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:07:30,287] {logging_mixin.py:104} INFO - [2021-07-14 11:07:30,287] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:07:30,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.068 seconds
+[2021-07-14 11:08:00,899] {scheduler_job.py:182} INFO - Started process (PID=2169) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:08:00,899] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:08:00,900] {logging_mixin.py:104} INFO - [2021-07-14 11:08:00,900] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:08:00,911] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:08:00,928] {logging_mixin.py:104} INFO - [2021-07-14 11:08:00,928] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:08:00,941] {logging_mixin.py:104} INFO - [2021-07-14 11:08:00,941] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:08:00,948] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.051 seconds
+[2021-07-14 11:08:31,436] {scheduler_job.py:182} INFO - Started process (PID=2221) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:08:31,439] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:08:31,440] {logging_mixin.py:104} INFO - [2021-07-14 11:08:31,440] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:08:31,468] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:08:31,485] {logging_mixin.py:104} INFO - [2021-07-14 11:08:31,485] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:08:31,498] {logging_mixin.py:104} INFO - [2021-07-14 11:08:31,497] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:08:31,504] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.076 seconds
+[2021-07-14 11:09:02,104] {scheduler_job.py:182} INFO - Started process (PID=2285) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:09:02,105] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:09:02,105] {logging_mixin.py:104} INFO - [2021-07-14 11:09:02,105] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:09:02,118] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:09:02,133] {logging_mixin.py:104} INFO - [2021-07-14 11:09:02,133] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:09:02,145] {logging_mixin.py:104} INFO - [2021-07-14 11:09:02,145] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:09:02,151] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.049 seconds
+[2021-07-14 11:09:33,028] {scheduler_job.py:182} INFO - Started process (PID=2348) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:09:33,031] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:09:33,032] {logging_mixin.py:104} INFO - [2021-07-14 11:09:33,032] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:09:33,056] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:09:33,073] {logging_mixin.py:104} INFO - [2021-07-14 11:09:33,073] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:09:33,085] {logging_mixin.py:104} INFO - [2021-07-14 11:09:33,085] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:09:33,091] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.071 seconds
+[2021-07-14 11:10:03,976] {scheduler_job.py:182} INFO - Started process (PID=2400) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:03,977] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:10:03,977] {logging_mixin.py:104} INFO - [2021-07-14 11:10:03,977] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:03,989] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:04,005] {logging_mixin.py:104} INFO - [2021-07-14 11:10:04,005] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:10:04,017] {logging_mixin.py:104} INFO - [2021-07-14 11:10:04,017] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:10:04,023] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.050 seconds
+[2021-07-14 11:10:15,808] {scheduler_job.py:182} INFO - Started process (PID=2442) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:15,809] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:10:15,810] {logging_mixin.py:104} INFO - [2021-07-14 11:10:15,809] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:15,822] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:15,838] {logging_mixin.py:104} INFO - [2021-07-14 11:10:15,838] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:10:15,850] {logging_mixin.py:104} INFO - [2021-07-14 11:10:15,850] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:10:15,858] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.052 seconds
+[2021-07-14 11:10:46,632] {scheduler_job.py:182} INFO - Started process (PID=2506) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:46,632] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:10:46,633] {logging_mixin.py:104} INFO - [2021-07-14 11:10:46,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:46,645] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:10:46,661] {logging_mixin.py:104} INFO - [2021-07-14 11:10:46,661] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:10:46,674] {logging_mixin.py:104} INFO - [2021-07-14 11:10:46,674] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:10:46,680] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.051 seconds
+[2021-07-14 11:11:17,159] {scheduler_job.py:182} INFO - Started process (PID=2569) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:17,160] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:11:17,160] {logging_mixin.py:104} INFO - [2021-07-14 11:11:17,160] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:17,172] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:17,188] {logging_mixin.py:104} INFO - [2021-07-14 11:11:17,188] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:11:17,200] {logging_mixin.py:104} INFO - [2021-07-14 11:11:17,200] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:11:17,207] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.050 seconds
+[2021-07-14 11:11:47,790] {scheduler_job.py:182} INFO - Started process (PID=2621) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:47,792] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:11:47,793] {logging_mixin.py:104} INFO - [2021-07-14 11:11:47,792] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:47,808] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:47,826] {logging_mixin.py:104} INFO - [2021-07-14 11:11:47,825] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:11:47,838] {logging_mixin.py:104} INFO - [2021-07-14 11:11:47,838] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:11:47,845] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.058 seconds
+[2021-07-14 11:11:52,855] {scheduler_job.py:182} INFO - Started process (PID=2632) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:52,856] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:11:52,857] {logging_mixin.py:104} INFO - [2021-07-14 11:11:52,857] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:52,869] {logging_mixin.py:104} INFO - [2021-07-14 11:11:52,868] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 47, in <module>
+    python_callable=say_hello.main,
+AttributeError: 'function' object has no attribute 'main'
+[2021-07-14 11:11:52,869] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:52,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.037 seconds
+[2021-07-14 11:11:56,880] {scheduler_job.py:182} INFO - Started process (PID=2633) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:56,882] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:11:56,883] {logging_mixin.py:104} INFO - [2021-07-14 11:11:56,883] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:56,892] {logging_mixin.py:104} INFO - [2021-07-14 11:11:56,892] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 47, in <module>
+    python_callable=say_hello.main,
+AttributeError: 'function' object has no attribute 'main'
+[2021-07-14 11:11:56,893] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:11:56,906] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.028 seconds
+[2021-07-14 11:12:27,808] {scheduler_job.py:182} INFO - Started process (PID=2697) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:27,810] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:12:27,812] {logging_mixin.py:104} INFO - [2021-07-14 11:12:27,812] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:27,830] {logging_mixin.py:104} INFO - [2021-07-14 11:12:27,829] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 47, in <module>
+    python_callable=say_hello.main,
+AttributeError: 'function' object has no attribute 'main'
+[2021-07-14 11:12:27,830] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:27,845] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.046 seconds
+[2021-07-14 11:12:33,864] {scheduler_job.py:182} INFO - Started process (PID=2698) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:33,868] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:12:33,870] {logging_mixin.py:104} INFO - [2021-07-14 11:12:33,870] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:33,892] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:33,909] {logging_mixin.py:104} INFO - [2021-07-14 11:12:33,908] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:12:33,922] {logging_mixin.py:104} INFO - [2021-07-14 11:12:33,922] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:12:33,931] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.075 seconds
+[2021-07-14 11:12:59,529] {scheduler_job.py:182} INFO - Started process (PID=2751) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:59,531] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:12:59,531] {logging_mixin.py:104} INFO - [2021-07-14 11:12:59,531] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:59,533] {logging_mixin.py:104} INFO - [2021-07-14 11:12:59,533] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/treino01.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/treino01.py", line 45
+    task_id="""Hello_Bash,
+  bash_command='echo "Hello Airflow from Bash"',
+  dag=dag
+)
+
+def say_hello():
+  print("Hello Airflow from Python")
+
+
+hello_python = PythonOperator(
+  task_id="Hello_Python",
+  python_callable=say_hello,
+  dag=dag
+)
+
+hello_bash >> hello_python
+                          
+                                                
+         
+ 
+
+                
+                                    
+
+
+                              
+                         
+                            
+         
+ 
+
+                         ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2021-07-14 11:12:59,534] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:12:59,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.046 seconds
+[2021-07-14 11:13:23,175] {scheduler_job.py:182} INFO - Started process (PID=2812) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:13:23,176] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:13:23,177] {logging_mixin.py:104} INFO - [2021-07-14 11:13:23,177] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:13:23,190] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:13:23,207] {logging_mixin.py:104} INFO - [2021-07-14 11:13:23,207] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:13:23,221] {logging_mixin.py:104} INFO - [2021-07-14 11:13:23,220] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:13:23,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.056 seconds
+[2021-07-14 11:13:53,917] {scheduler_job.py:182} INFO - Started process (PID=2866) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:13:53,918] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:13:53,918] {logging_mixin.py:104} INFO - [2021-07-14 11:13:53,918] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:13:53,932] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:13:53,952] {logging_mixin.py:104} INFO - [2021-07-14 11:13:53,952] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:13:53,965] {logging_mixin.py:104} INFO - [2021-07-14 11:13:53,965] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:13:53,972] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.058 seconds
+[2021-07-14 11:14:24,650] {scheduler_job.py:182} INFO - Started process (PID=2929) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:14:24,651] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:14:24,651] {logging_mixin.py:104} INFO - [2021-07-14 11:14:24,651] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:14:24,663] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:14:24,683] {logging_mixin.py:104} INFO - [2021-07-14 11:14:24,682] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:14:24,697] {logging_mixin.py:104} INFO - [2021-07-14 11:14:24,697] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:14:24,704] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.056 seconds
+[2021-07-14 11:14:40,819] {scheduler_job.py:182} INFO - Started process (PID=2940) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:14:40,821] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:14:40,823] {logging_mixin.py:104} INFO - [2021-07-14 11:14:40,823] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:14:40,850] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:14:40,867] {logging_mixin.py:104} INFO - [2021-07-14 11:14:40,867] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:14:40,879] {logging_mixin.py:104} INFO - [2021-07-14 11:14:40,879] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:14:40,887] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.076 seconds
+[2021-07-14 11:15:11,648] {scheduler_job.py:182} INFO - Started process (PID=3002) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:11,649] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:15:11,649] {logging_mixin.py:104} INFO - [2021-07-14 11:15:11,649] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:11,662] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:11,678] {logging_mixin.py:104} INFO - [2021-07-14 11:15:11,678] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:15:11,691] {logging_mixin.py:104} INFO - [2021-07-14 11:15:11,691] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:15:11,698] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.053 seconds
+[2021-07-14 11:15:13,674] {scheduler_job.py:182} INFO - Started process (PID=3003) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:13,675] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:15:13,676] {logging_mixin.py:104} INFO - [2021-07-14 11:15:13,676] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:13,692] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:13,707] {logging_mixin.py:104} INFO - [2021-07-14 11:15:13,707] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:15:13,721] {logging_mixin.py:104} INFO - [2021-07-14 11:15:13,721] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:15:13,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.057 seconds
+[2021-07-14 11:15:44,289] {scheduler_job.py:182} INFO - Started process (PID=3066) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:44,291] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:15:44,293] {logging_mixin.py:104} INFO - [2021-07-14 11:15:44,292] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:44,321] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:15:44,340] {logging_mixin.py:104} INFO - [2021-07-14 11:15:44,340] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:15:44,360] {logging_mixin.py:104} INFO - [2021-07-14 11:15:44,360] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:15:44,368] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.087 seconds
+[2021-07-14 11:16:09,999] {scheduler_job.py:182} INFO - Started process (PID=3119) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:16:10,000] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:16:10,001] {logging_mixin.py:104} INFO - [2021-07-14 11:16:10,000] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:16:10,018] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:16:10,041] {logging_mixin.py:104} INFO - [2021-07-14 11:16:10,041] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:16:10,054] {logging_mixin.py:104} INFO - [2021-07-14 11:16:10,054] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:16:10,064] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.068 seconds
+[2021-07-14 11:16:40,982] {scheduler_job.py:182} INFO - Started process (PID=3180) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:16:40,983] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:16:40,984] {logging_mixin.py:104} INFO - [2021-07-14 11:16:40,984] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:16:40,995] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:16:41,011] {logging_mixin.py:104} INFO - [2021-07-14 11:16:41,011] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:16:41,024] {logging_mixin.py:104} INFO - [2021-07-14 11:16:41,024] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:16:41,030] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.051 seconds
+[2021-07-14 11:17:11,678] {scheduler_job.py:182} INFO - Started process (PID=3233) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:17:11,679] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:17:11,680] {logging_mixin.py:104} INFO - [2021-07-14 11:17:11,680] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:17:11,692] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:17:11,743] {logging_mixin.py:104} INFO - [2021-07-14 11:17:11,743] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:17:11,760] {logging_mixin.py:104} INFO - [2021-07-14 11:17:11,760] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:17:11,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.113 seconds
+[2021-07-14 11:17:42,503] {scheduler_job.py:182} INFO - Started process (PID=3296) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:17:42,504] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:17:42,505] {logging_mixin.py:104} INFO - [2021-07-14 11:17:42,505] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:17:42,518] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:17:42,542] {logging_mixin.py:104} INFO - [2021-07-14 11:17:42,541] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:17:42,559] {logging_mixin.py:104} INFO - [2021-07-14 11:17:42,559] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:17:42,567] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.066 seconds
+[2021-07-14 11:18:13,304] {scheduler_job.py:182} INFO - Started process (PID=3358) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:18:13,305] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:18:13,306] {logging_mixin.py:104} INFO - [2021-07-14 11:18:13,306] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:18:13,324] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:18:13,349] {logging_mixin.py:104} INFO - [2021-07-14 11:18:13,348] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:18:13,366] {logging_mixin.py:104} INFO - [2021-07-14 11:18:13,366] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:18:13,374] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.073 seconds
+[2021-07-14 11:18:43,953] {scheduler_job.py:182} INFO - Started process (PID=3411) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:18:43,956] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:18:43,958] {logging_mixin.py:104} INFO - [2021-07-14 11:18:43,957] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:18:43,981] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:18:43,998] {logging_mixin.py:104} INFO - [2021-07-14 11:18:43,998] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:18:44,011] {logging_mixin.py:104} INFO - [2021-07-14 11:18:44,011] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:18:44,017] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.073 seconds
+[2021-07-14 11:19:14,854] {scheduler_job.py:182} INFO - Started process (PID=3476) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:19:14,855] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:19:14,855] {logging_mixin.py:104} INFO - [2021-07-14 11:19:14,855] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:19:14,867] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:19:14,886] {logging_mixin.py:104} INFO - [2021-07-14 11:19:14,886] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:19:14,902] {logging_mixin.py:104} INFO - [2021-07-14 11:19:14,902] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14T10:30:00+00:00
+[2021-07-14 11:19:14,911] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.059 seconds
+[2021-07-14 11:19:45,729] {scheduler_job.py:182} INFO - Started process (PID=3616) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:19:45,730] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:19:45,731] {logging_mixin.py:104} INFO - [2021-07-14 11:19:45,731] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:19:45,742] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:19:45,759] {logging_mixin.py:104} INFO - [2021-07-14 11:19:45,759] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:19:45,771] {logging_mixin.py:104} INFO - [2021-07-14 11:19:45,771] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:18:00+00:00
+[2021-07-14 11:19:45,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.050 seconds
+[2021-07-14 11:20:16,537] {scheduler_job.py:182} INFO - Started process (PID=3680) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:20:16,538] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:20:16,538] {logging_mixin.py:104} INFO - [2021-07-14 11:20:16,538] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:20:16,550] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:20:16,567] {logging_mixin.py:104} INFO - [2021-07-14 11:20:16,567] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:20:16,579] {logging_mixin.py:104} INFO - [2021-07-14 11:20:16,579] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:20:00+00:00
+[2021-07-14 11:20:16,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.051 seconds
+[2021-07-14 11:20:47,410] {scheduler_job.py:182} INFO - Started process (PID=3742) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:20:47,413] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:20:47,414] {logging_mixin.py:104} INFO - [2021-07-14 11:20:47,414] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:20:47,439] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:20:47,456] {logging_mixin.py:104} INFO - [2021-07-14 11:20:47,456] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:20:47,468] {logging_mixin.py:104} INFO - [2021-07-14 11:20:47,468] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:20:00+00:00
+[2021-07-14 11:20:47,475] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.073 seconds
+[2021-07-14 11:21:18,253] {scheduler_job.py:182} INFO - Started process (PID=3794) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:21:18,253] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:21:18,254] {logging_mixin.py:104} INFO - [2021-07-14 11:21:18,254] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:21:18,265] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:21:18,282] {logging_mixin.py:104} INFO - [2021-07-14 11:21:18,281] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:21:18,294] {logging_mixin.py:104} INFO - [2021-07-14 11:21:18,293] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:20:00+00:00
+[2021-07-14 11:21:18,300] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.050 seconds
+[2021-07-14 11:21:49,147] {scheduler_job.py:182} INFO - Started process (PID=3857) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:21:49,148] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:21:49,149] {logging_mixin.py:104} INFO - [2021-07-14 11:21:49,149] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:21:49,161] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:21:49,180] {logging_mixin.py:104} INFO - [2021-07-14 11:21:49,180] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:21:49,195] {logging_mixin.py:104} INFO - [2021-07-14 11:21:49,195] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:20:00+00:00
+[2021-07-14 11:21:49,203] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.058 seconds
+[2021-07-14 11:22:19,975] {scheduler_job.py:182} INFO - Started process (PID=3919) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:22:19,976] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:22:19,976] {logging_mixin.py:104} INFO - [2021-07-14 11:22:19,976] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:22:19,988] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:22:20,005] {logging_mixin.py:104} INFO - [2021-07-14 11:22:20,004] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:22:20,017] {logging_mixin.py:104} INFO - [2021-07-14 11:22:20,017] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:22:00+00:00
+[2021-07-14 11:22:20,024] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.051 seconds
+[2021-07-14 11:22:50,795] {scheduler_job.py:182} INFO - Started process (PID=3974) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:22:50,796] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:22:50,796] {logging_mixin.py:104} INFO - [2021-07-14 11:22:50,796] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:22:50,813] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:22:50,864] {logging_mixin.py:104} INFO - [2021-07-14 11:22:50,864] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:22:50,882] {logging_mixin.py:104} INFO - [2021-07-14 11:22:50,882] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:22:00+00:00
+[2021-07-14 11:22:50,891] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.099 seconds
+[2021-07-14 11:23:21,522] {scheduler_job.py:182} INFO - Started process (PID=4037) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:23:21,523] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:23:21,524] {logging_mixin.py:104} INFO - [2021-07-14 11:23:21,524] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:23:21,543] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:23:21,566] {logging_mixin.py:104} INFO - [2021-07-14 11:23:21,566] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:23:21,595] {logging_mixin.py:104} INFO - [2021-07-14 11:23:21,595] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:22:00+00:00
+[2021-07-14 11:23:21,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.085 seconds
+[2021-07-14 11:23:51,712] {scheduler_job.py:182} INFO - Started process (PID=4099) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:23:51,712] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:23:51,713] {logging_mixin.py:104} INFO - [2021-07-14 11:23:51,713] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:23:51,725] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:23:51,741] {logging_mixin.py:104} INFO - [2021-07-14 11:23:51,741] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:23:51,754] {logging_mixin.py:104} INFO - [2021-07-14 11:23:51,754] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:22:00+00:00
+[2021-07-14 11:23:51,770] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.061 seconds
+[2021-07-14 11:24:22,300] {scheduler_job.py:182} INFO - Started process (PID=4152) to work on /opt/airflow/dags/treino01.py
+[2021-07-14 11:24:22,301] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/treino01.py for tasks to queue
+[2021-07-14 11:24:22,301] {logging_mixin.py:104} INFO - [2021-07-14 11:24:22,301] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/treino01.py
+[2021-07-14 11:24:22,317] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['Treino-01']) retrieved from /opt/airflow/dags/treino01.py
+[2021-07-14 11:24:22,346] {logging_mixin.py:104} INFO - [2021-07-14 11:24:22,346] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-14 11:24:22,360] {logging_mixin.py:104} INFO - [2021-07-14 11:24:22,360] {dag.py:2306} INFO - Setting next_dagrun for Treino-01 to 2021-07-14 11:24:00+00:00
+[2021-07-14 11:24:22,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/treino01.py took 0.073 seconds
